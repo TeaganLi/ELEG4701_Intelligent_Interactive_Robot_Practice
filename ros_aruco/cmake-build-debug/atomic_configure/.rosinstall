@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/setup.sh
