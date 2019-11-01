@@ -6,6 +6,6 @@ If you want to change the dictionary of aruco marker, change "cv::Ptr<cv::aruco:
 * Topic name: /camera/pose3d
 * message type: geometry_msgs::TransformStamped
 
-##How to run:
+## How to run:
 1. Add this package to your ros workspace and run "catkin_make "
 2. "rosrun ros_aruco aruco_sub"
