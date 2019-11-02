@@ -24,13 +24,13 @@
 #include <geometry_msgs/PoseStamped.h>
 #include <geometry_msgs/PointStamped.h>
 #include <fstream>
-
-ros::Publisher pose_pub,pointStp_pub;
+#include <aruco_msg/aruco_tf_id.h>
+ros::Publisher pose_pub,aruco_tf_id_pub;
 image_transport::Publisher img_pub;
 void publishPose(ros::Publisher &pose_pub,ros::Publisher &pointStp_pub, tf2_ros::TransformBroadcaster &br,cv::Vec3f tvec,double q[], int markerID);
 void getQuaternion(cv::Mat R, double Q[]);
 double q[4];
-cv::Mat cameraMatrixKinect =(cv::Mat_<double >(3,3) << 540.68603515625, 0.0, 479.75, 0.0, 540.68603515625, 269.75, 0.0, 0.0, 1.0);
+cv::Mat cameraMatrixKinect =(cv::Mat_<double >(3,3) << 614.2276611328125, 0.0, 327.88189697265625, 0.0, 613.449462890625, 239.263671875, 0.0, 0.0, 1.0);
 cv::Mat distCoeffs = (cv::Mat_<double >(1,5) << 0.0, 0.0, 0.0, 0.0, 0.0);
 void arucoCallback(const sensor_msgs::ImageConstPtr& msg)
 {
@@ -43,23 +43,23 @@ void arucoCallback(const sensor_msgs::ImageConstPtr& msg)
         std::vector<int> markerIds;
         std::vector<std::vector<cv::Point2f>> markerCorners, rejectedCandidates;
         cv::Ptr<cv::aruco::DetectorParameters> parameters;
-        cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_4X4_250);
+        cv::Ptr<cv::aruco::Dictionary> dictionary = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_6X6_250);
         cv::aruco::detectMarkers(img, dictionary, markerCorners, markerIds);
         if(markerIds.size() > 0){
             cv::aruco::drawDetectedMarkers(imgOutput, markerCorners, markerIds);
 
             std::vector<cv::Vec3d> rvecs, tvecs;//rvecs and tvecs must be double
             static tf2_ros::TransformBroadcaster br;
-            cv::aruco::estimatePoseSingleMarkers(markerCorners,0.5, cameraMatrixKinect, distCoeffs, rvecs, tvecs);
+            cv::aruco::estimatePoseSingleMarkers(markerCorners,0.2, cameraMatrixKinect, distCoeffs, rvecs, tvecs);
             for(int i=0; i<markerIds.size(); i++) {
                 cv::Mat R = cv::Mat::zeros(3, 3, CV_64FC1);
                 cv::aruco::drawAxis(imgOutput, cameraMatrixKinect, distCoeffs, rvecs[i], tvecs[i], 0.1);
                 cv::Rodrigues(rvecs[i], R);
                 getQuaternion(R, q);
-                publishPose(pose_pub,pointStp_pub, br, tvecs[i], q, markerIds[i]);
+                publishPose(pose_pub,aruco_tf_id_pub, br, tvecs[i], q, markerIds[i]);
             }
         }
-        cv::imshow("Image Output",imgOutput);
+        cv::imshow("Image mobile platform",imgOutput);
         sensor_msgs::ImagePtr msg = cv_bridge::CvImage(std_msgs::Header(), "bgr8", imgOutput).toImageMsg();
         img_pub.publish(msg);
 	    cv::waitKey(10);
@@ -77,19 +77,20 @@ int main(int argc, char **argv){
     cv::startWindowThread();
     image_transport::ImageTransport it(nh);
     pose_pub = nh.advertise<geometry_msgs::TransformStamped>("/camera/pose3d", 10);
-    pointStp_pub = nh.advertise<geometry_msgs::PointStamped>("/camera/pointStamp", 10);
+    aruco_tf_id_pub = nh.advertise<aruco_msg::aruco_tf_id>("/camera/aruco_tf_id", 10);
     img_pub = it.advertise("/camera/image_with_coordination", 10);
     image_transport::Subscriber sub = it.subscribe("/camera/color/image_raw", 1, arucoCallback);
     ros::spin();
 }
 
 
-void publishPose(ros::Publisher &pose_pub,ros::Publisher &pointStp_pub, tf2_ros::TransformBroadcaster &br,cv::Vec3f tvec,double q[],int markerID){
+void publishPose(ros::Publisher &pose_pub,ros::Publisher &aruco_tf_id_pub, tf2_ros::TransformBroadcaster &br,cv::Vec3f tvec,double q[],int markerID){
 
     geometry_msgs::TransformStamped transformStamped;
-    geometry_msgs::PointStamped pointStamped;
+//    geometry_msgs::PointStamped pointStamped;
+    aruco_msg::aruco_tf_id arutfid;
     transformStamped.header.stamp = ros::Time::now();
-    transformStamped.header.frame_id = "realsense_camera";//should be camera
+    transformStamped.header.frame_id = "camera_rgb_optical_frame";//should be camera
     transformStamped.child_frame_id = std::to_string(markerID);
     transformStamped.transform.translation.x = tvec(0);
     transformStamped.transform.translation.y = tvec(1);
@@ -102,20 +103,22 @@ void publishPose(ros::Publisher &pose_pub,ros::Publisher &pointStp_pub, tf2_ros:
     br.sendTransform(transformStamped);
 
     pose_pub.publish(transformStamped);
-    pointStamped.point.x = tvec(0);
-    pointStamped.point.y = tvec(1);
-    pointStamped.point.z = tvec(2);
-    pointStp_pub.publish(pointStamped);
-    std::ofstream outx,outz,outsecond;
-    outx.open("/home/mh/catkin_ws/src/ros_aruco/src/x.txt",std::ios::app);
-    outz.open("/home/mh/catkin_ws/src/ros_aruco/src/z.txt",std::ios::app);
-    outsecond.open("/home/mh/catkin_ws/src/ros_aruco/src/second.txt",std::ios::app);
-    outx<<tvec(0)<<std::endl;
-    outz<<tvec(2)<<std::endl;
-    outsecond<<transformStamped.header.stamp<<std::endl;
-    outsecond.close();
-    outx.close();
-    outz.close();
+    arutfid.id = markerID;
+    arutfid.tf.header.stamp = ros::Time::now();
+    arutfid.tf.header.frame_id = "camera_rgb_optical_frame";
+    arutfid.tf.child_frame_id = std::to_string(markerID);
+    arutfid.tf.transform.translation.x = tvec(0);
+    arutfid.tf.transform.translation.y = tvec(1);
+    arutfid.tf.transform.translation.z = tvec(2);
+
+    arutfid.tf.transform.rotation.x = q[0];
+    arutfid.tf.transform.rotation.y = q[1];
+    arutfid.tf.transform.rotation.z = q[2];
+    arutfid.tf.transform.rotation.w = q[3];
+//    pointStamped.point.x = tvec(0);
+//    pointStamped.point.y = tvec(1);
+//    pointStamped.point.z = tvec(2);
+//    pointStp_pub.publish(pointStamped);
 }
 
 void getQuaternion(cv::Mat R, double Q[])// convert opencv rotation matrix to quaternion

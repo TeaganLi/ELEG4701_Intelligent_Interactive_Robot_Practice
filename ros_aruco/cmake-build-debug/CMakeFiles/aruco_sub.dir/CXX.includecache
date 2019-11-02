@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/mh/catkin_ws/devel/include/aruco_msg/aruco_tf_id.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+geometry_msgs/TransformStamped.h
+-
+
 /home/mh/catkin_ws/src/ros_aruco/src/aruco_sub.cpp
 ros/ros.h
 -
@@ -40,6 +58,8 @@ geometry_msgs/PoseStamped.h
 geometry_msgs/PointStamped.h
 -
 fstream
+-
+aruco_msg/aruco_tf_id.h
 -
 
 /opt/ros/kinetic/include/cv_bridge/cv_bridge.h

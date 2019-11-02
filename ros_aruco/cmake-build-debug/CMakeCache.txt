@@ -326,6 +326,9 @@ actionlib_DIR:PATH=/opt/ros/kinetic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/kinetic/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for aruco_msg.
+aruco_msg_DIR:PATH=/home/mh/catkin_ws/devel/share/aruco_msg/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
@@ -419,6 +422,8 @@ pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
 
 //Value Computed by CMake
 ros_aruco_BINARY_DIR:STATIC=/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug
+
+ros_aruco_DIR:PATH=
 
 //Value Computed by CMake
 ros_aruco_SOURCE_DIR:STATIC=/home/mh/catkin_ws/src/ros_aruco

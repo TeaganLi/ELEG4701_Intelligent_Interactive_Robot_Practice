@@ -21,7 +21,10 @@
   <build_depend>message_generation</build_depend>
   <build_depend>opencv2</build_depend>
   <build_depend>sensor_msgs</build_depend>
+  <build_depend>aruco_msg</build_depend>
 
+
+  <exec_depend>aruco_msg</exec_depend>
   <exec_depend>cv_bridge</exec_depend>
   <exec_depend>image_transport</exec_depend>
   <exec_depend>message_runtime</exec_depend>
@@ -34,7 +37,6 @@
   <exec_depend>tf2_ros</exec_depend>
   <build_depend>geometry_msgs</build_depend>
   <exec_depend>geometry_msgs</exec_depend>
-
 
   <buildtool_depend>catkin</buildtool_depend>
 

@@ -168,6 +168,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named aruco_sub_arm2
+
+# Build rule for target.
+aruco_sub_arm2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aruco_sub_arm2
+.PHONY : aruco_sub_arm2
+
+# fast build rule for target.
+aruco_sub_arm2/fast:
+	$(MAKE) -f CMakeFiles/aruco_sub_arm2.dir/build.make CMakeFiles/aruco_sub_arm2.dir/build
+.PHONY : aruco_sub_arm2/fast
+
+#=============================================================================
+# Target rules for targets named aruco_sub_arm1
+
+# Build rule for target.
+aruco_sub_arm1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aruco_sub_arm1
+.PHONY : aruco_sub_arm1
+
+# fast build rule for target.
+aruco_sub_arm1/fast:
+	$(MAKE) -f CMakeFiles/aruco_sub_arm1.dir/build.make CMakeFiles/aruco_sub_arm1.dir/build
+.PHONY : aruco_sub_arm1/fast
+
+#=============================================================================
 # Target rules for targets named aruco_sub
 
 # Build rule for target.
@@ -179,6 +205,58 @@ aruco_sub: cmake_check_build_system
 aruco_sub/fast:
 	$(MAKE) -f CMakeFiles/aruco_sub.dir/build.make CMakeFiles/aruco_sub.dir/build
 .PHONY : aruco_sub/fast
+
+#=============================================================================
+# Target rules for targets named aruco_msg_generate_messages_py
+
+# Build rule for target.
+aruco_msg_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aruco_msg_generate_messages_py
+.PHONY : aruco_msg_generate_messages_py
+
+# fast build rule for target.
+aruco_msg_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/aruco_msg_generate_messages_py.dir/build.make CMakeFiles/aruco_msg_generate_messages_py.dir/build
+.PHONY : aruco_msg_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named aruco_msg_generate_messages_nodejs
+
+# Build rule for target.
+aruco_msg_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aruco_msg_generate_messages_nodejs
+.PHONY : aruco_msg_generate_messages_nodejs
+
+# fast build rule for target.
+aruco_msg_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/aruco_msg_generate_messages_nodejs.dir/build.make CMakeFiles/aruco_msg_generate_messages_nodejs.dir/build
+.PHONY : aruco_msg_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named aruco_msg_generate_messages_lisp
+
+# Build rule for target.
+aruco_msg_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aruco_msg_generate_messages_lisp
+.PHONY : aruco_msg_generate_messages_lisp
+
+# fast build rule for target.
+aruco_msg_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/aruco_msg_generate_messages_lisp.dir/build.make CMakeFiles/aruco_msg_generate_messages_lisp.dir/build
+.PHONY : aruco_msg_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named aruco_msg_generate_messages_eus
+
+# Build rule for target.
+aruco_msg_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aruco_msg_generate_messages_eus
+.PHONY : aruco_msg_generate_messages_eus
+
+# fast build rule for target.
+aruco_msg_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/aruco_msg_generate_messages_eus.dir/build.make CMakeFiles/aruco_msg_generate_messages_eus.dir/build
+.PHONY : aruco_msg_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_generate_messages_py
@@ -244,6 +322,19 @@ actionlib_msgs_generate_messages_py: cmake_check_build_system
 actionlib_msgs_generate_messages_py/fast:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named aruco_msg_generate_messages_cpp
+
+# Build rule for target.
+aruco_msg_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aruco_msg_generate_messages_cpp
+.PHONY : aruco_msg_generate_messages_cpp
+
+# fast build rule for target.
+aruco_msg_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/aruco_msg_generate_messages_cpp.dir/build.make CMakeFiles/aruco_msg_generate_messages_cpp.dir/build
+.PHONY : aruco_msg_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_lisp
@@ -844,6 +935,60 @@ src/aruco_sub.cpp.s:
 	$(MAKE) -f CMakeFiles/aruco_sub.dir/build.make CMakeFiles/aruco_sub.dir/src/aruco_sub.cpp.s
 .PHONY : src/aruco_sub.cpp.s
 
+src/aruco_sub_arm1.o: src/aruco_sub_arm1.cpp.o
+
+.PHONY : src/aruco_sub_arm1.o
+
+# target to build an object file
+src/aruco_sub_arm1.cpp.o:
+	$(MAKE) -f CMakeFiles/aruco_sub_arm1.dir/build.make CMakeFiles/aruco_sub_arm1.dir/src/aruco_sub_arm1.cpp.o
+.PHONY : src/aruco_sub_arm1.cpp.o
+
+src/aruco_sub_arm1.i: src/aruco_sub_arm1.cpp.i
+
+.PHONY : src/aruco_sub_arm1.i
+
+# target to preprocess a source file
+src/aruco_sub_arm1.cpp.i:
+	$(MAKE) -f CMakeFiles/aruco_sub_arm1.dir/build.make CMakeFiles/aruco_sub_arm1.dir/src/aruco_sub_arm1.cpp.i
+.PHONY : src/aruco_sub_arm1.cpp.i
+
+src/aruco_sub_arm1.s: src/aruco_sub_arm1.cpp.s
+
+.PHONY : src/aruco_sub_arm1.s
+
+# target to generate assembly for a file
+src/aruco_sub_arm1.cpp.s:
+	$(MAKE) -f CMakeFiles/aruco_sub_arm1.dir/build.make CMakeFiles/aruco_sub_arm1.dir/src/aruco_sub_arm1.cpp.s
+.PHONY : src/aruco_sub_arm1.cpp.s
+
+src/aruco_sub_arm2.o: src/aruco_sub_arm2.cpp.o
+
+.PHONY : src/aruco_sub_arm2.o
+
+# target to build an object file
+src/aruco_sub_arm2.cpp.o:
+	$(MAKE) -f CMakeFiles/aruco_sub_arm2.dir/build.make CMakeFiles/aruco_sub_arm2.dir/src/aruco_sub_arm2.cpp.o
+.PHONY : src/aruco_sub_arm2.cpp.o
+
+src/aruco_sub_arm2.i: src/aruco_sub_arm2.cpp.i
+
+.PHONY : src/aruco_sub_arm2.i
+
+# target to preprocess a source file
+src/aruco_sub_arm2.cpp.i:
+	$(MAKE) -f CMakeFiles/aruco_sub_arm2.dir/build.make CMakeFiles/aruco_sub_arm2.dir/src/aruco_sub_arm2.cpp.i
+.PHONY : src/aruco_sub_arm2.cpp.i
+
+src/aruco_sub_arm2.s: src/aruco_sub_arm2.cpp.s
+
+.PHONY : src/aruco_sub_arm2.s
+
+# target to generate assembly for a file
+src/aruco_sub_arm2.cpp.s:
+	$(MAKE) -f CMakeFiles/aruco_sub_arm2.dir/build.make CMakeFiles/aruco_sub_arm2.dir/src/aruco_sub_arm2.cpp.s
+.PHONY : src/aruco_sub_arm2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -852,14 +997,21 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... edit_cache"
+	@echo "... aruco_sub_arm2"
+	@echo "... aruco_sub_arm1"
 	@echo "... aruco_sub"
+	@echo "... edit_cache"
+	@echo "... aruco_msg_generate_messages_py"
+	@echo "... aruco_msg_generate_messages_nodejs"
+	@echo "... aruco_msg_generate_messages_lisp"
+	@echo "... aruco_msg_generate_messages_eus"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... test"
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... aruco_msg_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -910,6 +1062,12 @@ help:
 	@echo "... src/aruco_sub.o"
 	@echo "... src/aruco_sub.i"
 	@echo "... src/aruco_sub.s"
+	@echo "... src/aruco_sub_arm1.o"
+	@echo "... src/aruco_sub_arm1.i"
+	@echo "... src/aruco_sub_arm1.s"
+	@echo "... src/aruco_sub_arm2.o"
+	@echo "... src/aruco_sub_arm2.i"
+	@echo "... src/aruco_sub_arm2.s"
 .PHONY : help
 
 

@@ -1,0 +1,8 @@
+<launch>
+    <node name="aruco_pose_mobile" pkg="ros_aruco" type="aruco_sub" output="screen">
+    </node>
+    <node name="aruco_pose_arm1" pkg="ros_aruco" type="aruco_sub_arm1" output="screen">
+    </node>
+    <node name="aruco_pose_arm2" pkg="ros_aruco" type="aruco_sub_arm2" output="screen">
+    </node>
+</launch>

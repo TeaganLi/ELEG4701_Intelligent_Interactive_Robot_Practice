@@ -5,7 +5,7 @@
 		<Option title="ros_aruco"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\gmock\;CMake Files\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Ceres\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\cv_bridge\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\cv_bridge\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\image_transport\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_filters\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\pluginlib\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\class_loader\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roslib\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rospack\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_generation\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\gencpp\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genmsg\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\geneus\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genlisp\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genpy\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_ros\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_ros\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\actionlib\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosgraph\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosgraph\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_py\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_py\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rospy\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\catkin\;CMake Files\cmake-build-debug\catkin\catkin_generated\;CMake Files\cmake-build-debug\catkin\catkin_generated\version\;CMake Files\cmake-build-debug\catkin_generated\;CMake Files\cmake-build-debug\catkin_generated\installspace\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\gmock\;CMake Files\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Ceres\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\cv_bridge\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\cv_bridge\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\image_transport\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\image_transport\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_filters\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_filters\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\pluginlib\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\pluginlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\class_loader\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\class_loader\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roslib\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\roslib\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rospack\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rospack\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_generation\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\message_generation\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\gencpp\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\gencpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genmsg\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genmsg\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\geneus\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\geneus\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genlisp\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genlisp\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\gennodejs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genpy\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\genpy\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\actionlib_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_ros\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_ros\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\actionlib\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\actionlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosgraph\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rosgraph\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_py\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\tf2_py\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rospy\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\rospy\cmake\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\;CMake Files\..\..\devel\;CMake Files\..\..\devel\share\;CMake Files\..\..\devel\share\aruco_msg\;CMake Files\..\..\devel\share\aruco_msg\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\catkin\;CMake Files\cmake-build-debug\catkin\catkin_generated\;CMake Files\cmake-build-debug\catkin\catkin_generated\version\;CMake Files\cmake-build-debug\catkin_generated\;CMake Files\cmake-build-debug\catkin_generated\installspace\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug"/>
@@ -37,11 +37,129 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug"/>
-				<Option type="4"/>
+			<Target title="aruco_sub_arm2">
+				<Option output="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/ros_aruco/aruco_sub_arm2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/ros_aruco"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ros_aruco&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/mh/catkin_ws/src/ros_aruco/include"/>
+					<Add directory="/home/mh/catkin_ws/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_sub_arm2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aruco_sub_arm2/fast">
+				<Option output="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/ros_aruco/aruco_sub_arm2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/ros_aruco"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ros_aruco&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/mh/catkin_ws/src/ros_aruco/include"/>
+					<Add directory="/home/mh/catkin_ws/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_sub_arm2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aruco_sub_arm1">
+				<Option output="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/ros_aruco/aruco_sub_arm1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/ros_aruco"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ros_aruco&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/mh/catkin_ws/src/ros_aruco/include"/>
+					<Add directory="/home/mh/catkin_ws/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_sub_arm1"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aruco_sub_arm1/fast">
+				<Option output="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/ros_aruco/aruco_sub_arm1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/ros_aruco"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;ros_aruco&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/mh/catkin_ws/src/ros_aruco/include"/>
+					<Add directory="/home/mh/catkin_ws/devel/include"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_sub_arm1/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -58,6 +176,7 @@
 					<Add option="-DROS_PACKAGE_NAME=&quot;ros_aruco&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/home/mh/catkin_ws/src/ros_aruco/include"/>
+					<Add directory="/home/mh/catkin_ws/devel/include"/>
 					<Add directory="/opt/ros/kinetic/include"/>
 					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
@@ -89,6 +208,7 @@
 					<Add option="-DROS_PACKAGE_NAME=&quot;ros_aruco&quot;"/>
 					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
 					<Add directory="/home/mh/catkin_ws/src/ros_aruco/include"/>
+					<Add directory="/home/mh/catkin_ws/devel/include"/>
 					<Add directory="/opt/ros/kinetic/include"/>
 					<Add directory="/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
@@ -104,6 +224,56 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_sub/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aruco_msg_generate_messages_py">
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_msg_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aruco_msg_generate_messages_nodejs">
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_msg_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aruco_msg_generate_messages_lisp">
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_msg_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aruco_msg_generate_messages_eus">
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_msg_generate_messages_eus"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -164,6 +334,16 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aruco_msg_generate_messages_cpp">
+				<Option working_dir="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 aruco_msg_generate_messages_cpp"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -819,6 +999,12 @@
 		<Unit filename="/home/mh/catkin_ws/src/ros_aruco/src/aruco_sub.cpp">
 			<Option target="aruco_sub"/>
 		</Unit>
+		<Unit filename="/home/mh/catkin_ws/src/ros_aruco/src/aruco_sub_arm1.cpp">
+			<Option target="aruco_sub_arm1"/>
+		</Unit>
+		<Unit filename="/home/mh/catkin_ws/src/ros_aruco/src/aruco_sub_arm2.cpp">
+			<Option target="aruco_sub_arm2"/>
+		</Unit>
 		<Unit filename="/usr/src/gmock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
@@ -1313,6 +1499,15 @@
 		</Unit>
 		<Unit filename="/home/mh/catkin_ws/src/ros_aruco/../../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/mh/catkin_ws/src/ros_aruco/../../devel/share/aruco_msg/cmake/aruco_msg-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\devel\share\aruco_msg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mh/catkin_ws/src/ros_aruco/../../devel/share/aruco_msg/cmake/aruco_msgConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\devel\share\aruco_msg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/mh/catkin_ws/src/ros_aruco/../../devel/share/aruco_msg/cmake/aruco_msgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\devel\share\aruco_msg\cmake\"/>
 		</Unit>
 		<Unit filename="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/catkin/catkin_generated/version/package.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin\catkin_generated\version\"/>

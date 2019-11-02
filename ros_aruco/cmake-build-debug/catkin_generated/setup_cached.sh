@@ -10,5 +10,6 @@
 export CMAKE_PREFIX_PATH="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PYTHONPATH="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/mh/catkin_ws/src/ros_aruco:$ROS_PACKAGE_PATH"
