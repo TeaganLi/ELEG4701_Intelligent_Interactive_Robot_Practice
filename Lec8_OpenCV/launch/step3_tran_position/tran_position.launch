@@ -1,0 +1,6 @@
+<launch>
+<!-- process the img from rs2 -->
+    <node pkg="lc8" type="opencv_img_processing_V6.py" name="" />
+<!-- process the target position -->
+    <node pkg="lc8" type="position_process.py" name="" />
+</launch>
