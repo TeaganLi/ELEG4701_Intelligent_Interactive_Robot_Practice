@@ -1,0 +1,7 @@
+<launch>
+<!-- convert the img between ros and OpenCV-->
+    <node pkg="lc8" type="imageconvert.py" name="" />
+  <!-- check the img in ros format -->
+    <node pkg="lc8" type="check.py" name="" />
+</launch>
+

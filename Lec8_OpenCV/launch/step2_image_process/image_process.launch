@@ -1,0 +1,4 @@
+<launch>
+<!-- process the img from rs2 -->
+    <node pkg="lc8" type="opencv_img_processing_V6.py" name="" />
+</launch>
