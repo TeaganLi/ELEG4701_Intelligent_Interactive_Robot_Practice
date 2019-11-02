@@ -1,6 +1,0 @@
-<launch>
-    <node name="aruco_pose_publisher" pkg="ros_aruco" type="aruco_sub" output="screen">
-    </node>
-    <node pkg="rosbag" type="play" name="player" output="screen" args="--clock /home/mh/catkin_ws/src/ppnp/bag/newdata/ir_aruco_1.bag"/>
-</launch>
-

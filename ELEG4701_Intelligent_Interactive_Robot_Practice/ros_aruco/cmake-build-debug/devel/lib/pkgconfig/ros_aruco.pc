@@ -1,8 +1,0 @@
-prefix=/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel
-
-Name: ros_aruco
-Description: Description of ros_aruco
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mh/catkin_ws/src/ros_aruco/cmake-build-debug/devel/lib 
-Requires: cv_bridge image_transport message_runtime sensor_msgs
