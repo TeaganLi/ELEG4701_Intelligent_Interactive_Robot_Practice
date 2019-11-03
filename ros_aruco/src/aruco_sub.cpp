@@ -53,10 +53,12 @@ void arucoCallback(const sensor_msgs::ImageConstPtr& msg)
             cv::aruco::estimatePoseSingleMarkers(markerCorners,0.2, cameraMatrixKinect, distCoeffs, rvecs, tvecs);
             for(int i=0; i<markerIds.size(); i++) {
                 cv::Mat R = cv::Mat::zeros(3, 3, CV_64FC1);
-                cv::aruco::drawAxis(imgOutput, cameraMatrixKinect, distCoeffs, rvecs[i], tvecs[i], 0.1);
                 cv::Rodrigues(rvecs[i], R);
                 getQuaternion(R, q);
-                publishPose(pose_pub,aruco_tf_id_pub, br, tvecs[i], q, markerIds[i]);
+		if(markerIds[i]>=2){
+			cv::aruco::drawAxis(imgOutput, cameraMatrixKinect, distCoeffs, rvecs[i], tvecs[i], 0.1);
+			publishPose(pose_pub,aruco_tf_id_pub, br, tvecs[i], q, markerIds[i]);
+		}
             }
         }
         cv::imshow("Image mobile platform",imgOutput);

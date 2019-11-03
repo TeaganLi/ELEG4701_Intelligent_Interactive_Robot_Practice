@@ -11,7 +11,6 @@ find_package (Eigen3 REQUIRED NO_MODULE)
 ## is used, also find other catkin packages
 catkin_package(CATKIN_DEPENDS cv_bridge image_transport message_runtime sensor_msgs)
 find_package(OpenCV)
-find_package(Ceres REQUIRED)
 include_directories(${CERES_INCLUDE_DIRS})
 include_directories(include ${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
 
