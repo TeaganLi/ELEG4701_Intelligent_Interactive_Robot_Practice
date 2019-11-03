@@ -5,12 +5,10 @@ This package comprise three nodes **aruco_sub**, **aruco_sub_arm1**, **aruco_sub
 3. **aruco_sub_arm2** is used for the detection of the marker on the target object. The transformation of the marker with respect to camera is published on topic "/camera/target2_pose3d".
 
 ## message type introduction:
-All of the three nodes can also publish aruco_tf_id message. Aruco_tf_id message contain the transformation(tf) of aruco marker and the ID of aruco marker. You can check "aruco_tf_id.msg" in package aruco_msg/msg/.
+All of the three nodes can also publish aruco_tf_id message. Aruco_tf_id message contain the transformation(tf) of aruco marker and the ID of aruco marker. You can check "aruco_tf_id.msg" in package aruco_msg/msg/. You can also get the transformation of aruco marker from tf tree. The frame id is the id of the aruco marker. Considering that you will need to know the ids of different markers, you need to kown where to subscribe aruco_tf_id message.
 1. **aruco_sub** publish aruco_tf_id message on topic "/camera/aruco_tf_id".
 2. **aruco_sub_arm1** publish aruco_tf_id message on topic "/camera/aruco_tf_id/arm1".
 3. **aruco_sub_arm2** publish aruco_tf_id message on topic "/camera/aruco_tf_id/arm2".
-
-You can also get the transformation of aruco marker from tf tree. The frame id is the id of the aruco marker.
 
 ## How to use this message:
 1. In python
