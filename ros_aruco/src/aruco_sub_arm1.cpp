@@ -78,7 +78,7 @@ int main(int argc, char **argv){
     cv::startWindowThread();
     image_transport::ImageTransport it(nh);
     pose_pub = nh.advertise<geometry_msgs::TransformStamped>("/camera/target1_pose3d", 10);
-    aruco_tf_id_pub = nh.advertise<aruco_msg::aruco_tf_id>("/camera/aruco_tf_id", 10);
+    aruco_tf_id_pub = nh.advertise<aruco_msg::aruco_tf_id>("/camera/aruco_tf_id/arm1", 10);
 //    pointStp_pub = nh.advertise<geometry_msgs::PointStamped>("/camera/pointStamp", 10);
     img_pub = it.advertise("/camera/image_with_coordination", 10);
     image_transport::Subscriber sub = it.subscribe("/camera/color/image_raw", 1, arucoCallback);
@@ -117,6 +117,7 @@ void publishPose(ros::Publisher &pose_pub,ros::Publisher &pointStp_pub, tf2_ros:
     arutfid.tf.transform.rotation.y = q[1];
     arutfid.tf.transform.rotation.z = q[2];
     arutfid.tf.transform.rotation.w = q[3];
+    aruco_tf_id_pub.publish(arutfid);
 //    pointStamped.point.x = tvec(0);
 //    pointStamped.point.y = tvec(1);
 //    pointStamped.point.z = tvec(2);

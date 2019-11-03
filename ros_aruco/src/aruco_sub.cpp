@@ -115,6 +115,7 @@ void publishPose(ros::Publisher &pose_pub,ros::Publisher &aruco_tf_id_pub, tf2_r
     arutfid.tf.transform.rotation.y = q[1];
     arutfid.tf.transform.rotation.z = q[2];
     arutfid.tf.transform.rotation.w = q[3];
+    aruco_tf_id_pub.publish(arutfid);
 //    pointStamped.point.x = tvec(0);
 //    pointStamped.point.y = tvec(1);
 //    pointStamped.point.z = tvec(2);
