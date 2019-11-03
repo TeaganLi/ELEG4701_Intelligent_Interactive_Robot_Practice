@@ -6,5 +6,6 @@ In this repository, you can find related materials used in our course including:
 * ros_aruco: aruco marker pose estimator ros package 
 * aruco_msg: user defined aruco ros message type, which includes both marker ID and its transformation
 * Lec8_OpenCV: OpenCV based image process(including manipulation_demo code in this folder)
+* navigation_moveit: python template to send goals to move base
 
 
