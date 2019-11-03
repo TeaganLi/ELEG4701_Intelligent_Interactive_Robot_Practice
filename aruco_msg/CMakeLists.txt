@@ -7,7 +7,7 @@ project(aruco_msg)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS cv_bridge image_transport message_generation sensor_msgs tf2 tf2_ros geometry_msgs roscpp)
+find_package(catkin REQUIRED COMPONENTS cv_bridge image_transport message_generation sensor_msgs tf2 tf2_ros geometry_msgs roscpp rospy)
 add_message_files(
         FILES
         aruco_tf_id.msg
