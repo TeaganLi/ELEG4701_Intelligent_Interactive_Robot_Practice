@@ -6,6 +6,7 @@ including
        /step1_image convert/convertandshow.launch      #convert the image between ROS and OpenCV
 	   /step2_image_process/image_process.launch       #process the depth image from RealSense and publish the postion(x,y in pixel and z in mm) topic
        /step3_tran_position/tran_position.launch       #get the position topic and transform to x y z in m
+	/manipulation_demo                             #the code in Lec7
 	/src
 		/check.py                                      #check the image topic
 		/imageconvert.py                               #ROS and OpenCV
