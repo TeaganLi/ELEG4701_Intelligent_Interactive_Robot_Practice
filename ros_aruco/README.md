@@ -9,6 +9,7 @@ All of the three nodes can also publish aruco_tf_id message. Aruco_tf_id message
 1. **aruco_sub** publish aruco_tf_id message on topic "/camera/aruco_tf_id".
 2. **aruco_sub_arm1** publish aruco_tf_id message on topic "/camera/aruco_tf_id/arm1".
 3. **aruco_sub_arm2** publish aruco_tf_id message on topic "/camera/aruco_tf_id/arm2".
+
 You can also get the transformation of aruco marker from tf tree. The frame id is the id of the aruco marker.
 
 ## How to use this message:
